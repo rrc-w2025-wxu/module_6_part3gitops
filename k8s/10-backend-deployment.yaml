@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/rrc-w2025-wxu/4001_assignment_6_part3_wei_xu-backend:386a1c748da165961fdc318e2987911b3a13e6fb
+          image: ghcr.io/rrc-w2025-wxu/4001_assignment_6_part3_wei_xu-backend:7acf8942acb747647e2bc566c42f3763b53aedda
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
