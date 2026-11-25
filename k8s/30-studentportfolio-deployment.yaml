@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: studentportfolio
-          image: ghcr.io/rrc-w2025-wxu/4001_assignment_6_part3_wei_xu-studentportfolio:7acf8942acb747647e2bc566c42f3763b53aedda
+          image: ghcr.io/rrc-w2025-wxu/4001_assignment_6_part3_wei_xu-studentportfolio:86f7baf487a12d5b8a48c17e8a453f01cdf19c21
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
