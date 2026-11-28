@@ -5,7 +5,7 @@ metadata:
   labels:
     app: backend
 spec:
-  replicas: 5
+  replicas: 3
   revisionHistoryLimit: 2
   selector:
     matchLabels:
@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: backend
-          image: ghcr.io/rrc-w2025-wxu/4001_assignment_6_part3_wei_xu-backend:0faf8a594729ef6cc0572ca0059ea615eb56c972
+          image: ghcr.io/rrc-w2025-wxu/4001_assignment_6_part3_wei_xu-backend:d52343c41ab4d11c187329289a5451e99dfccb1c
           imagePullPolicy: IfNotPresent
           ports:
             - name: http

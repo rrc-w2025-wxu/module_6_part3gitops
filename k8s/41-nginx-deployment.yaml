@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: nginx
-          image: ghcr.io/rrc-w2025-wxu/4001_assignment_6_part3_wei_xu-nginx:0faf8a594729ef6cc0572ca0059ea615eb56c972
+          image: ghcr.io/rrc-w2025-wxu/4001_assignment_6_part3_wei_xu-nginx:d52343c41ab4d11c187329289a5451e99dfccb1c
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
